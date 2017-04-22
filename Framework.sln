@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.DAL.Entity", "BHBitProject.Lib.DAL.Entity\BHBitProject.Lib.DAL.Entity.csproj", "{EE3F554A-4EE1-45A0-A51B-A30FE669F091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.DAL.ADO", "BHBitProject.Lib.DAL.ADO\BHBitProject.Lib.DAL.ADO.csproj", "{C04A6722-7D3B-474F-9CDD-B61C1233F435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.Util", "BHBitProject.Lib.UTIL\BHBitProject.Lib.Util.csproj", "{1232C24C-E903-4A61-9C76-B10E7230D424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.MVC", "BHBitProject.Lib.MVC\BHBitProject.Lib.MVC.csproj", "{24D09D0B-790F-4CA4-A1BF-6723ED4BD223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.Security", "BHBitProject.Lib.Security\BHBitProject.Lib.Security.csproj", "{52ECC219-6451-43C7-84DE-590693260F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestFramework", "ConsoleTestFramework\ConsoleTestFramework.csproj", "{EBABA8AB-266F-437B-B354-15335EC7AB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE3F554A-4EE1-45A0-A51B-A30FE669F091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3F554A-4EE1-45A0-A51B-A30FE669F091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3F554A-4EE1-45A0-A51B-A30FE669F091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3F554A-4EE1-45A0-A51B-A30FE669F091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04A6722-7D3B-474F-9CDD-B61C1233F435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04A6722-7D3B-474F-9CDD-B61C1233F435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04A6722-7D3B-474F-9CDD-B61C1233F435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04A6722-7D3B-474F-9CDD-B61C1233F435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1232C24C-E903-4A61-9C76-B10E7230D424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1232C24C-E903-4A61-9C76-B10E7230D424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1232C24C-E903-4A61-9C76-B10E7230D424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1232C24C-E903-4A61-9C76-B10E7230D424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D09D0B-790F-4CA4-A1BF-6723ED4BD223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D09D0B-790F-4CA4-A1BF-6723ED4BD223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D09D0B-790F-4CA4-A1BF-6723ED4BD223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D09D0B-790F-4CA4-A1BF-6723ED4BD223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52ECC219-6451-43C7-84DE-590693260F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52ECC219-6451-43C7-84DE-590693260F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52ECC219-6451-43C7-84DE-590693260F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52ECC219-6451-43C7-84DE-590693260F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBABA8AB-266F-437B-B354-15335EC7AB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBABA8AB-266F-437B-B354-15335EC7AB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBABA8AB-266F-437B-B354-15335EC7AB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBABA8AB-266F-437B-B354-15335EC7AB01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://diogon1.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BHBitProject.Lib.DAL.ADO\\BHBitProject.Lib.DAL.ADO.csproj
+		SccProjectName1 = BHBitProject.Lib.DAL.ADO
+		SccLocalPath1 = BHBitProject.Lib.DAL.ADO
+		SccProjectUniqueName2 = BHBitProject.Lib.UTIL\\BHBitProject.Lib.Util.csproj
+		SccProjectName2 = BHBitProject.Lib.UTIL
+		SccLocalPath2 = BHBitProject.Lib.UTIL
+		SccProjectUniqueName3 = BHBitProject.Lib.MVC\\BHBitProject.Lib.MVC.csproj
+		SccProjectName3 = BHBitProject.Lib.MVC
+		SccLocalPath3 = BHBitProject.Lib.MVC
+		SccProjectUniqueName4 = BHBitProject.Lib.Security\\BHBitProject.Lib.Security.csproj
+		SccProjectName4 = BHBitProject.Lib.Security
+		SccLocalPath4 = BHBitProject.Lib.Security
+		SccProjectUniqueName5 = BHBitProject.Lib.DAL.Entity\\BHBitProject.Lib.DAL.Entity.csproj
+		SccProjectName5 = BHBitProject.Lib.DAL.Entity
+		SccLocalPath5 = BHBitProject.Lib.DAL.Entity
+		SccProjectUniqueName6 = ConsoleTestFramework\\ConsoleTestFramework.csproj
+		SccProjectName6 = ConsoleTestFramework
+		SccLocalPath6 = ConsoleTestFramework
+	EndGlobalSection
+EndGlobal

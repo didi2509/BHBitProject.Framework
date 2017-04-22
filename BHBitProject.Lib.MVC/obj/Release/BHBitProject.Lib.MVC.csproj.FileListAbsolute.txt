@@ -1,0 +1,17 @@
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\BHBitProject.Lib.MVC.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\BHBitProject.Lib.MVC.pdb
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.Mvc.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.Razor.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.WebPages.Razor.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.WebPages.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\Microsoft.Web.Infrastructure.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.WebPages.Deployment.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.Mvc.xml
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.Razor.xml
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.WebPages.Razor.xml
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.WebPages.xml
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\Microsoft.Web.Infrastructure.xml
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.WebPages.Deployment.xml
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\obj\Release\BHBitProject.Lib.MVC.csprojResolveAssemblyReference.cache
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\obj\Release\BHBitProject.Lib.MVC.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.MVC\obj\Release\BHBitProject.Lib.MVC.pdb

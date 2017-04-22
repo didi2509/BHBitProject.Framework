@@ -1,0 +1,4 @@
+H:\DEV\Framework\Framework\Framework.DAL\bin\Release\Framework.DAL.dll
+H:\DEV\Framework\Framework\Framework.DAL\bin\Release\Framework.DAL.pdb
+H:\DEV\Framework\Framework\Framework.DAL\obj\Release\Framework.DAL.dll
+H:\DEV\Framework\Framework\Framework.DAL\obj\Release\Framework.DAL.pdb

@@ -1,0 +1,5 @@
+H:\DEV\Framework\Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework.exe.config
+H:\DEV\Framework\Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework.exe
+H:\DEV\Framework\Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework.pdb
+H:\DEV\Framework\Framework\ConsoleTestFramework\obj\Release\ConsoleTestFramework.exe
+H:\DEV\Framework\Framework\ConsoleTestFramework\obj\Release\ConsoleTestFramework.pdb

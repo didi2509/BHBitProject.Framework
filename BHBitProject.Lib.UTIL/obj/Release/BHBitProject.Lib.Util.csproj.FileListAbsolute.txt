@@ -1,0 +1,5 @@
+H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\bin\Release\BHBitProject.Lib.Util.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\bin\Release\BHBitProject.Lib.Util.pdb
+H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.csprojResolveAssemblyReference.cache
+H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.pdb

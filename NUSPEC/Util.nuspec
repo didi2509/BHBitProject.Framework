@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BHBitProject.Lib.Util</id>
+    <version>1.0.0.0</version>
+    <authors>Diogo de Freitas Nunes</authors>
+    <owners>Diogo de Freitas Nunes</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>General Utils</description>
+    <releaseNotes>Security</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+  </metadata>
+  <files>
+    <file src="H:\DEV\Framework\Framework\BHBitProject.Lib.Util\bin\Release\BHBitProject.Lib.Util.dll" target="lib" />
+  </files>
+</package>

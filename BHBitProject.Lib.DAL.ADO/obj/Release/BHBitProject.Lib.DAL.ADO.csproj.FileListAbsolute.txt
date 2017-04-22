@@ -1,0 +1,7 @@
+H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BHBitProject.Lib.DAL.ADO.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BHBitProject.Lib.DAL.ADO.pdb
+H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\bin\Release\Dapper.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\bin\Release\Dapper.xml
+H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.csprojResolveAssemblyReference.cache
+H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.pdb

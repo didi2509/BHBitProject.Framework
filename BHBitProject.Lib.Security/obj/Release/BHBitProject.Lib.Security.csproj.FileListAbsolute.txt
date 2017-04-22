@@ -1,0 +1,4 @@
+H:\DEV\Framework\Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.pdb
+H:\DEV\Framework\Framework\BHBitProject.Lib.Security\obj\Release\BHBitProject.Lib.Security.dll
+H:\DEV\Framework\Framework\BHBitProject.Lib.Security\obj\Release\BHBitProject.Lib.Security.pdb
