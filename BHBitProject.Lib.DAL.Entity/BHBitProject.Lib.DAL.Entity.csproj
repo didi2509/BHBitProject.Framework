@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\BaseDAL.cs" />
-    <Compile Include="Core\BaseUnitOfWork.cs" />
     <Compile Include="Core\GenericRepository.cs" />
     <Compile Include="Exception\GetEntityKeyException.cs" />
     <Compile Include="Exception\NullContextException.cs" />
