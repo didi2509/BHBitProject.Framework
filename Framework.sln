@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.Security",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestFramework", "ConsoleTestFramework\ConsoleTestFramework.csproj", "{EBABA8AB-266F-437B-B354-15335EC7AB01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.IO", "BHBitProject.Lib.IO\BHBitProject.Lib.IO.csproj", "{711B9B36-F766-441B-B2A9-236B66D88DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,32 +47,12 @@ Global
 		{EBABA8AB-266F-437B-B354-15335EC7AB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBABA8AB-266F-437B-B354-15335EC7AB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBABA8AB-266F-437B-B354-15335EC7AB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711B9B36-F766-441B-B2A9-236B66D88DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711B9B36-F766-441B-B2A9-236B66D88DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711B9B36-F766-441B-B2A9-236B66D88DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711B9B36-F766-441B-B2A9-236B66D88DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 7
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://diogon1.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BHBitProject.Lib.DAL.ADO\\BHBitProject.Lib.DAL.ADO.csproj
-		SccProjectName1 = BHBitProject.Lib.DAL.ADO
-		SccLocalPath1 = BHBitProject.Lib.DAL.ADO
-		SccProjectUniqueName2 = BHBitProject.Lib.UTIL\\BHBitProject.Lib.Util.csproj
-		SccProjectName2 = BHBitProject.Lib.UTIL
-		SccLocalPath2 = BHBitProject.Lib.UTIL
-		SccProjectUniqueName3 = BHBitProject.Lib.MVC\\BHBitProject.Lib.MVC.csproj
-		SccProjectName3 = BHBitProject.Lib.MVC
-		SccLocalPath3 = BHBitProject.Lib.MVC
-		SccProjectUniqueName4 = BHBitProject.Lib.Security\\BHBitProject.Lib.Security.csproj
-		SccProjectName4 = BHBitProject.Lib.Security
-		SccLocalPath4 = BHBitProject.Lib.Security
-		SccProjectUniqueName5 = BHBitProject.Lib.DAL.Entity\\BHBitProject.Lib.DAL.Entity.csproj
-		SccProjectName5 = BHBitProject.Lib.DAL.Entity
-		SccLocalPath5 = BHBitProject.Lib.DAL.Entity
-		SccProjectUniqueName6 = ConsoleTestFramework\\ConsoleTestFramework.csproj
-		SccProjectName6 = ConsoleTestFramework
-		SccLocalPath6 = ConsoleTestFramework
 	EndGlobalSection
 EndGlobal

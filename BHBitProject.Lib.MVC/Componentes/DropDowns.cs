@@ -1,50 +1,29 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Web.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
 
+namespace BHBitProject.Lib.MVC.Components
+{
+    public static class DropDown
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="lista"></param>
+        /// <param name="dataValueField"></param>
+        /// <param name="dataTextField"></param>
+        /// <param name="selectedValue"></param>
+        /// <returns></returns>
+        public static SelectList GetDropDown<T>(this IEnumerable<T> lista, string dataValueField = "Value", string dataTextField = "Text", object selectedValue = null) where T : class, new()
+        {
+            IEnumerable<dynamic> listaRetorno = new List<dynamic>() { new { Text = " ------ Selecione ------", Value = 0 } }.Concat(lista);
 
-//namespace TaskManagerNET.UTILS.EXTENSIONS
-//{
-//    public static class DropDowns
-//    {
-
-//        #region Propriedades
-
-//        public const String SELECIONE = "-- Select --";
-
-//        #endregion
-
-//        /// <summary>
-//        /// Retorna um SelectList já configurado
-//        /// </summary>
-//        /// <param name="list"></param>
-//        /// <param name="enumerable"></param>
-//        /// <param name="campoValor"></param>
-//        /// <param name="campoTexto"></param>
-//        /// <param name="valorSelecionado"></param>
-//        /// <returns></returns>
-//        public static IEnumerable<SelectListItem> Novo(System.Collections.IEnumerable enumerable, string campoValor, string campoTexto, Object valorSelecionado = null, bool IncluirSELECIONE = true)
-//        {
-//            if (enumerable == null)
-//                return new SelectList(new List<Char>());
-
-//            SelectList lista = valorSelecionado == null ? new SelectList(enumerable, campoValor, campoTexto) : new SelectList(enumerable, campoValor, campoTexto, valorSelecionado);
-
-//            return IncluirSELECIONE ? lista.Selecione() : lista;
-
-//        }
-
-
-
-//        /// <summary>
-//        /// Adiciona o conteudo Selecione a uma lista
-//        /// </summary>
-//        /// <param name="lista"></param>
-//        /// <returns></returns>
-//        public static IEnumerable<SelectListItem> Selecione(this SelectList lista)
-//        {
-//            return (new List<SelectListItem>() { new SelectListItem() { Selected = true, Text = SELECIONE, Value = string.Empty } }).Union(lista);
-//        }
-//    }
-//}
+            return selectedValue == null
+                ? new SelectList(listaRetorno, dataValueField, dataTextField)
+                : new SelectList(listaRetorno, dataValueField, dataTextField, selectedValue);
+        }
+    }
+}

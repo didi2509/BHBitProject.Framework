@@ -11,6 +11,6 @@
     <copyright>Copyright 2017</copyright>
   </metadata>
   <files>
-    <file src="H:\DEV\Framework\Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.dll" target="lib" />
+    <file src="C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.dll" target="lib" />
   </files>
 </package>

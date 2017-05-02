@@ -3,3 +3,8 @@ H:\DEV\Framework\Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework
 H:\DEV\Framework\Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework.pdb
 H:\DEV\Framework\Framework\ConsoleTestFramework\obj\Release\ConsoleTestFramework.exe
 H:\DEV\Framework\Framework\ConsoleTestFramework\obj\Release\ConsoleTestFramework.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework.exe.config
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework.exe
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\ConsoleTestFramework\bin\Release\ConsoleTestFramework.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\ConsoleTestFramework\obj\Release\ConsoleTestFramework.exe
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\ConsoleTestFramework\obj\Release\ConsoleTestFramework.pdb

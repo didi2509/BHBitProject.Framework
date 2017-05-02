@@ -10,6 +10,7 @@ namespace ConsoleTestFramework
     {
         static void Main(string[] args)
         {
+            //Test
         }
     }
 }

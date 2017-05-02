@@ -14,6 +14,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BHBitProject.Lib.DAL.ADO.dll" target="lib" />
+    <file src="C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BHBitProject.Lib.DAL.ADO.dll" target="lib" />
   </files>
 </package>
