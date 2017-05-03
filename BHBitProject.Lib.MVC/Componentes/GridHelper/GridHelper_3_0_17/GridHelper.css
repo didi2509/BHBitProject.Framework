@@ -1,0 +1,370 @@
+﻿/*
+
+*************
+***********
+********
+
+/// 12/01/2016
+/// Diogo de Freitas Nunes
+/// Versão 3.1
+
+********
+***********
+*************
+
+*/
+
+.esconder {
+    display: none;
+}
+
+/* Helper */
+div.gridHelperQuantidadeRegistros {
+    float: left;
+    width: 270px;
+}
+
+div.gridHelperQuantidadeRegistros {
+    width: 280px;
+    margin-top: 20px;
+}
+
+    div.gridHelperQuantidadeRegistros span {
+        margin-top: 5px;
+        float: left;
+    }
+
+
+
+/* Input de busca */
+div.gridHelperBusca {
+    float: right;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+    /*Label pesquisar*/
+    div.gridHelperBusca > span {
+        float: left;
+        margin-top: 5px;
+    }
+
+    /*Input de busca*/
+    div.gridHelperBusca > input {
+        float: left;
+        border: 1px solid #D8D8D8;
+        border-radius: 5px;
+    }
+
+div.gridHelperBotaoBusca {
+    float: right;
+}
+    /*Botão de pesquisa*/
+    div.gridHelperBotaoBusca div {
+        height: 24px !Important;
+        margin-left: 2px !Important;
+        text-align: center;
+        width: 60px !Important;
+        background-color: #808080;
+        line-height: 24px !Important;
+        padding: 0px !Important;
+        font-size: 10px;
+        font-weight: normal !Important;
+    }
+
+th.gridHelperColunaCabecalho {
+    background-color: #3B7F7D !Important;
+    color: #ffffff !Important;
+    padding: 10px;
+}
+
+select.selectQuantidadeRegistrosGridHelper {
+    margin-top: 5px !Important;
+}
+
+/*ir para*/
+div.irParaRegistroDiv {
+    float: left;
+    min-width: 180px;
+    margin-top: 22px;
+}
+
+
+    div.irParaRegistroDiv input {
+        width: 60px;
+    }
+
+/* Exibindo as informações */
+div.gridHelperInformacoes {
+    float: left;
+    min-width: 200px;
+    margin-top: 25px;
+}
+
+div.gridHelperPaginacao {
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul li a.active {
+    background-color: #000;
+}
+
+div.gridHelperRodape {
+    clear: both;
+    height: 60px;
+    margin-top: -5px;
+    margin-top: 20px;
+}
+
+div.gridHelperBotaoBusca {
+    float: right;
+    margin-left: 4px;
+}
+
+th {
+    /*background-color: #1e82cc !Important;*/
+    text-transform: uppercase;
+}
+
+    th.gridHelperDetalhamento {
+        width: 7px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #3B7F7D !important;
+    }
+
+td.gridHelperDetalhamento {
+    width: 7px;
+    cursor: pointer;
+}
+
+    td.gridHelperDetalhamento label {
+        width: 7px;
+        cursor: pointer;
+    }
+
+td.gridHelperContador {
+    text-align: center;
+}
+
+th.gridHelperColunaCabecalho {
+    cursor: pointer;
+    text-align: left;
+}
+
+#gridHelperGlobalLoader {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9998;
+    background-color: transparent; /*Tratamento para o IE, mesma que nao exista a imagem o fundo será bloqueado*/
+    /* background-image: url(fundoTransparente.png);*/
+    background-repeat: repeat-x repeat-y;
+    top: 0px;
+    left: 0px;
+}
+
+#gridHelperLoaderGif {
+    background-image: url(gridHelperLoader.gif);
+    width: 41px;
+    height: 39px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    z-index: 9999;
+    display: block;
+}
+
+
+
+/*TR de filtro por coluna*/
+tr.gridHelparLinhaFiltro {
+    text-align: center;
+}
+/*TD de filtro por coluna*/
+td.gridHelperColunaFiltro {
+    padding-top: 10px;
+    text-align: center;
+}
+
+th.gridHelperOrdenavel {
+    background: url('sort_both.png') no-repeat;
+    background-position: right 65%;
+}
+
+th.gridHelperOrdenacaoAsc {
+    background: url('sort_asc.png') no-repeat center right;
+}
+
+th.gridHelperOrdenacaoDesc {
+    background: url('sort_desc.png') no-repeat center right;
+}
+
+.gridHelperBotaoExcel {
+    clear: both;
+    float: right;
+}
+
+/*Exportação Excel*/
+
+
+
+table.gridHelperExportacaoExcel {
+    background-color: #000;
+    color: #fff;
+}
+
+th.gridHelperExportacaoExcelTh {
+    background-color: #000;
+    color: #fff;
+}
+
+tr.gridHelperExportacaoExcelTrLinha {
+    background-color: #000;
+    color: #fff;
+}
+
+tr.gridHelperExportacaoExcelTrCabecalho {
+    background-color: #000;
+    color: #fff;
+}
+
+td.gridHelperExportacaoExcelTd {
+    background-color: #000;
+    color: #fff;
+}
+
+
+tr.GridHelperSelection td {
+    cursor: pointer !important;
+    background-color: #888 !important;
+    color: #000 !important;
+    font-weight: bold;
+    transition: all ease 0.4s;
+}
+
+tr.GridHelperSelection td:hover  {
+    background-color: #aaa !important;
+}
+
+
+tr.GridHelperSelection  {
+    background-color: #bbb !important;
+}
+
+tr.GridHelperSelection + tr.gridHelperTrDetalhamento td{
+     /*background-color: #bbb !important;*/
+}
+
+
+
+ul.pagination li a {
+    color: #5E80B7 !Important;
+}
+
+ul.pagination li.active a {
+    color: #fff !Important;
+    font-weight: bold !Important;
+}
+
+
+
+input.gridHelperBotaoIrPara {
+    height: 21px !Important;
+    margin-left: 2px !Important;
+    text-align: center;
+    width: 30px !Important;
+    background-color: #1e82cc;
+    line-height: 2px !Important;
+    padding: 0px !Important;
+    font-size: 10px;
+}
+
+td.gridHelperDetalhamentoExpandir, th.gridHelperDetalhamentoExpandir {
+    text-align: center;
+    font-size: 20px !important;
+}
+
+
+table.gridHelperTabela {
+    border-collapse: collapse;
+    width: 100%;
+    clear: both;
+}
+
+    table.gridHelperTabela tr:nth-child(even) {
+        /*background-color: #E0E0E0;*/
+    }
+
+    table.gridHelperTabela tr td {
+        padding: 5px;
+        font-size: 12px;
+        line-height: 22px;
+        text-align: left !important;
+    }
+
+/*Paginação
+a.gridHelperPaginacaoSalto {
+    color: #1e82cc !Important;
+}
+
+    a.gridHelperPaginacaoSalto i {
+        color: #1e82cc !Important;
+    }
+
+div.gridHelperPaginacao > ul.pagination {
+
+    list-style:none;
+    width:350px;
+    text-align:center;
+}
+
+div.gridHelperPaginacao > ul.pagination li{
+
+    float:left;
+    border:1px solid #ddd;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    cursor:pointer;
+
+}
+
+div.gridHelperPaginacao > ul.pagination li:hover{
+    background-color:#ddd;
+}
+
+div.gridHelperPaginacao > ul.pagination li.active{
+    background-color:#eee;
+}*/
+
+
+table.gridHelperTabela td > div.gridHelperDetalhamentoDiv {
+cursor:pointer;
+}
+
+tr.gridHelperTrDetalhamento td {
+    cursor: default !important;
+}
+
+table.gridHelperTabela td > div.gridHelperDetalhamentoFechado {
+    background-image: url(gridHelperExpandir.png);
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+}
+
+table.gridHelperTabela td > div.gridHelperDetalhamentoAberto {
+    background-image: url(gridHelperRecolher.png);
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+}
+
+.gridHelperBotaoIrPara {
+  background-color:#777 !Important;
+}

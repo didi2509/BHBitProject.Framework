@@ -31,3 +31,6 @@ C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.MVC\bin\Rele
 C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.MVC\bin\Release\System.Web.WebPages.Deployment.xml
 C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.MVC\obj\Release\BHBitProject.Lib.MVC.dll
 C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.MVC\obj\Release\BHBitProject.Lib.MVC.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.MVC\obj\Release\BHBitProject.Lib.MVC.csprojResolveAssemblyReference.cache
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.MVC\bin\Release\Newtonsoft.Json.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.MVC\bin\Release\Newtonsoft.Json.xml
