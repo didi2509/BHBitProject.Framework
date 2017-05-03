@@ -176,7 +176,7 @@ namespace System.Web.Helpers
         public static IHtmlString Create(String _IdTabela, String _AtributosLinha = "", String _PastaTemporariaExportacoes = "Downloads", String _RemoverColunas = "", bool _GerarDetalhamento = false, bool _MontarColunasAuto = false, bool RestringirColunasPesquisa = true, GridDetails[] _Detalhes = null, params GridColumn[] _Colunas)
         {
             GridHelper grid = new GridHelper(_IdTabela, _AtributosLinha, _PastaTemporariaExportacoes, _RemoverColunas, _GerarDetalhamento, _MontarColunasAuto, RestringirColunasPesquisa, _Detalhes, _Colunas);
-            return new HtmlString(String.Format("<input type='hidden' id='gridData_{0}' value='{1}' />", grid.IdTabela, JsonConvert.SerializeObject(new BaseGridHelper(grid))));
+            return new HtmlString(String.Format("<div style='display:none' id='gridData_{0}'>{1}</div>", grid.IdTabela, JsonConvert.SerializeObject(new BaseGridHelper(grid))));
         }
 
         public static GridHelper CreateFromBase(BaseGridHelper baseGrid)

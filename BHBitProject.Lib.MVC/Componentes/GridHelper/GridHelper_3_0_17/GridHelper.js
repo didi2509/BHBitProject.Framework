@@ -1398,7 +1398,7 @@ var GridHelper = function (_eventos) {
         this.ParametrosRequisicao.irParaRegistro = this.irParaRegistro;
         this.ParametrosRequisicao.gerarIrPara = this.gerarIrPara;
         this.ParametrosRequisicao.esconderContadorIrPara = this.esconderContadorIrPara;
-        this.ParametrosRequisicao.baseGrid = $('#gridData_' + this.idTabela).val();
+        this.ParametrosRequisicao.baseGrid = $('#gridData_' + this.idTabela).html();
 
         try {
             if (this.objetoSerialize != null) {
