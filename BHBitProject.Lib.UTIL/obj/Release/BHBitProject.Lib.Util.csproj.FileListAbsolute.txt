@@ -3,3 +3,8 @@ H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\bin\Release\BHBitProject.Lib.Ut
 H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.csprojResolveAssemblyReference.cache
 H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.dll
 H:\DEV\Framework\Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.UTIL\bin\Release\BHBitProject.Lib.Util.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.UTIL\bin\Release\BHBitProject.Lib.Util.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.csprojResolveAssemblyReference.cache
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.UTIL\obj\Release\BHBitProject.Lib.Util.pdb

@@ -385,6 +385,7 @@ var GridHelper = function (_eventos) {
             //Cria o loader na página
             this.CriarDivLoader();
 
+
             this.CriarContainers(_idDivContainerPai);
 
             this.RetornarConsulta(1, this.quantidadePadraoRegistros, this.ValorFiltro(), this);
@@ -1638,8 +1639,19 @@ var GridHelper = function (_eventos) {
 
     this.TryInsertDataJson = function (baseGrid) {
         /// <summary>Carrega os dados de estrutura da grid em um Json</summary>
-        $('#gridData_' + this.idTabela).val(baseGrid);
+        $('#gridData_' + this.idTabela).html(baseGrid);
     }
+
+
+
+    this.ReplaceBaseGrid = function () {
+        /// <summary>Carrega os dados de estrutura da grid em um Json</summary>
+        var baseGrid = document.getElementById('gridData_' + this.idTabela);
+        var parent = baseGrid.parent;
+        parent.removeChild(baseGrid);
+        document.body.appendChild(baseGrid);
+
+    }();
 
     this.GerarMouseUpTr = function (that) {
         /// <summary>Mouse up</summary>

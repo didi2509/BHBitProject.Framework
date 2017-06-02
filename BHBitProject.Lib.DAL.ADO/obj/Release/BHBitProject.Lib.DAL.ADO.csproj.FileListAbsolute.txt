@@ -5,3 +5,10 @@ H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\bin\Release\Dapper.xml
 H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.csprojResolveAssemblyReference.cache
 H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.dll
 H:\DEV\Framework\Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BHBitProject.Lib.DAL.ADO.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BHBitProject.Lib.DAL.ADO.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\bin\Release\Dapper.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\bin\Release\Dapper.xml
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.csprojResolveAssemblyReference.cache
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\obj\Release\BHBitProject.Lib.DAL.ADO.pdb

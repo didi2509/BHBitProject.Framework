@@ -2,3 +2,7 @@ H:\DEV\Framework\Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Li
 H:\DEV\Framework\Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.pdb
 H:\DEV\Framework\Framework\BHBitProject.Lib.Security\obj\Release\BHBitProject.Lib.Security.dll
 H:\DEV\Framework\Framework\BHBitProject.Lib.Security\obj\Release\BHBitProject.Lib.Security.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.Security\obj\Release\BHBitProject.Lib.Security.dll
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.Security\obj\Release\BHBitProject.Lib.Security.pdb

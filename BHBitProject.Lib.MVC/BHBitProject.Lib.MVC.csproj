@@ -55,8 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BBPScripts\Componentes\GridHelper\" />
     <Folder Include="Css\Componentes\GridHelper\" />
-    <Folder Include="Scripts\Componentes\GridHelper\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -70,6 +70,16 @@
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\sort_asc.png" />
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\sort_both.png" />
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\sort_desc.png" />
+    <Content Include="BBPScripts\BBP\Ajax.js" />
+    <Content Include="BBPScripts\BBP\BBP.js" />
+    <Content Include="BBPScripts\BBP\Components\DropDowns.js" />
+    <Content Include="BBPScripts\BBP\DateTime.js" />
+    <Content Include="BBPScripts\BBP\Extensions\Extensao.js" />
+    <Content Include="BBPScripts\BBP\JSON.js" />
+    <Content Include="BBPScripts\BBP\Message.js" />
+    <Content Include="BBPScripts\BBP\Ready.js" />
+    <Content Include="BBPScripts\BBP\Utils.js" />
+    <Content Include="BBPScripts\BBP\Validate.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

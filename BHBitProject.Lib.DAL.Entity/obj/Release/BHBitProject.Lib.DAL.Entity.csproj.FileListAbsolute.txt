@@ -17,3 +17,4 @@ C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.Entity\b
 C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.Entity\bin\Release\EntityFramework.SqlServer.xml
 C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.Entity\obj\Release\BHBitProject.Lib.DAL.Entity.dll
 C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.Entity\obj\Release\BHBitProject.Lib.DAL.Entity.pdb
+C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.Entity\obj\Release\BHBitProject.Lib.DAL.Entity.csprojResolveAssemblyReference.cache
