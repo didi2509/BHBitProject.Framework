@@ -5,7 +5,7 @@ using System.Text;
 using System.Linq;
 using System.Security.Cryptography;
 
-namespace BHBitProject.Lib.Util.Extensions.StringExtensions
+namespace BBP.Util.Extensions.StringExtensions
 {
     public static class StringExtensions
     {

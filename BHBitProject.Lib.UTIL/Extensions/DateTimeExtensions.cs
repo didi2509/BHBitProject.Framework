@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BHBitProject.Lib.Util.Extensions.DateTimeExtensions
+namespace BBP.Util.Extensions.DateTimeExtensions
 {
     public static class DateTimeExtensions
     {

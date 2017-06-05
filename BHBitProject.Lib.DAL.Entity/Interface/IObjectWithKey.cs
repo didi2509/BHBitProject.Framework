@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.DAL.Entity.Interface
+namespace BBP.DAL.Entity.Interface
 {
     public interface IObjectWithKey
     {

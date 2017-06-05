@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.IO.MetaData
+namespace BBP.IO.MetaData
 {
     public static class MetaData
     {

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 
-namespace BHBitProject.Lib.Util
+namespace BBP.Util
 {
     public static class Reflection
     {

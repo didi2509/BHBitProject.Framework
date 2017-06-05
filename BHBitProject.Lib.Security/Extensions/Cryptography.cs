@@ -1,4 +1,4 @@
-﻿using BHBitProject.Lib.Security.Cryptography;
+﻿using BBP.Security.Cryptography;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.Security.Extensions
+namespace BBP.Security.Extensions
 {
     public static class Cryptography
     {

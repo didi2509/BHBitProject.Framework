@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
-namespace BHBitProject.Lib.MVC.Extensions
+namespace BBP.MVC.Extensions
 {
     public static class HTMLExtensions
     {

@@ -1,4 +1,4 @@
-﻿using BHBitProject.Lib.IO.Interface;
+﻿using BBP.IO.Interface;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.IO.Extensions
+namespace BBP.IO.Extensions
 {
     public static class FileExtensions
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BHBitProject.Lib.Util.Extensions.ValidateExtensions
+namespace BBP.Util.Extensions.ValidateExtensions
 {
     public static class ValidateExtensions
     {

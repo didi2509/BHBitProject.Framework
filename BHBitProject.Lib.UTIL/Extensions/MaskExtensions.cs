@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BHBitProject.Lib.Util.Extensions.MaskExtensions
+namespace BBP.Util.Extensions.MaskExtensions
 {
     public static class MaskExtensions
     {

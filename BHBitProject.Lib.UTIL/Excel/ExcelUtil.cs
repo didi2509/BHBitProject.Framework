@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.Util.Excel
+namespace BBP.Util.Excel
 {
     public class ExcelUtil
     {

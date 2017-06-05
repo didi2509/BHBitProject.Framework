@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BHBitProject.Lib.Util.Extensions.ConvertExtensions
+namespace BBP.Util.Extensions.ConvertExtensions
 {
     public static class ConvertExtensions
     {

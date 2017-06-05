@@ -7,8 +7,8 @@
     <ProjectGuid>{52ECC219-6451-43C7-84DE-590693260F36}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BHBitProject.Lib.Security</RootNamespace>
-    <AssemblyName>BHBitProject.Lib.Security</AssemblyName>
+    <RootNamespace>BBP.Security</RootNamespace>
+    <AssemblyName>BBP.Security</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

@@ -1,4 +1,4 @@
-﻿using BHBitProject.Lib.DAL.Entity.Interface;
+﻿using BBP.DAL.Entity.Interface;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.DAL.Entity.Interface
+namespace BBP.DAL.Entity.Interface
 {
     public interface IGenericRepository<T>:IGenericRepositoryBehavior<T> where T : class,IObjectWithKey
     {

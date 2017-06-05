@@ -3,7 +3,7 @@ using System.Data;
 using System.Security.Cryptography;
 using System.IO;
 
-namespace BHBitProject.Lib.Security.Cryptography
+namespace BBP.Security.Cryptography
 {
     public class SimpleAES
     {

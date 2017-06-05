@@ -8,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.DAL.Entity.Interface
+namespace BBP.DAL.Entity.Interface
 {
     public interface IGenericRepositoryBehavior<T> where T : class, IObjectWithKey
     {

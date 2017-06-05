@@ -1,4 +1,4 @@
-﻿using BHBitProject.Lib.DAL.Interface.ADO;
+﻿using BBP.DAL.Interface.ADO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.DAL.ADO
+namespace BBP.DAL.ADO
 {
     internal class MicroORM : IMicroORM
     {

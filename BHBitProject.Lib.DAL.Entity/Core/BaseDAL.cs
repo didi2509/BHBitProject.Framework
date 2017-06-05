@@ -1,5 +1,5 @@
 ﻿
-using BHBitProject.Lib.DAL.Entity.Interface;
+using BBP.DAL.Entity.Interface;
 using System;
 using System.Collections.Generic;
 
@@ -11,7 +11,7 @@ using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.Core.Objects.DataClasses;
 
-namespace BHBitProject.Lib.DAL.Entity
+namespace BBP.DAL.Entity
 {
     /// <summary>
     /// Classe base para a criação de objetos de entidade especializados para o acesso a dados

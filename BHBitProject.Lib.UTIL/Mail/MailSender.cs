@@ -4,7 +4,7 @@ using System.Web;
 using System.Configuration;
 using System.Net.Mail;
 
-namespace BHBitProject.Lib.Util.Mail
+namespace BBP.Util.Mail
 {
     public class MailSender
     {

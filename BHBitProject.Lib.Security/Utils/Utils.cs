@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.Security
+namespace BBP.Security
 {
     public static class Utils
     {

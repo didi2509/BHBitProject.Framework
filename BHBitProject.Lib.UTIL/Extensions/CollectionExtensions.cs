@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-namespace BHBitProject.Lib.Util.Extensions.CollectionExtensions
+namespace BBP.Util.Extensions.CollectionExtensions
 {
     public static class CollectionExtensions
     {

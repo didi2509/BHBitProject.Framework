@@ -1,4 +1,4 @@
-﻿using BHBitProject.Lib.DAL.ADO.Exception;
+﻿using BBP.DAL.ADO.Exception;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
-using BHBitProject.Lib.DAL.Interface.ADO;
+using BBP.DAL.Interface.ADO;
 
-namespace BHBitProject.Lib.DAL.ADO.Extensions
+namespace BBP.DAL.ADO.Extensions
 {
     public static class ADOExtensions
     {

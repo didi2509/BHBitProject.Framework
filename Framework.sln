@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.DAL.Entity", "BHBitProject.Lib.DAL.Entity\BHBitProject.Lib.DAL.Entity.csproj", "{EE3F554A-4EE1-45A0-A51B-A30FE669F091}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.DAL.Entity", "BHBitProject.Lib.DAL.Entity\BBP.DAL.Entity.csproj", "{EE3F554A-4EE1-45A0-A51B-A30FE669F091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.DAL.ADO", "BHBitProject.Lib.DAL.ADO\BHBitProject.Lib.DAL.ADO.csproj", "{C04A6722-7D3B-474F-9CDD-B61C1233F435}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.DAL.ADO", "BHBitProject.Lib.DAL.ADO\BBP.DAL.ADO.csproj", "{C04A6722-7D3B-474F-9CDD-B61C1233F435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.Util", "BHBitProject.Lib.UTIL\BHBitProject.Lib.Util.csproj", "{1232C24C-E903-4A61-9C76-B10E7230D424}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.Util", "BHBitProject.Lib.UTIL\BBP.Util.csproj", "{1232C24C-E903-4A61-9C76-B10E7230D424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.MVC", "BHBitProject.Lib.MVC\BHBitProject.Lib.MVC.csproj", "{24D09D0B-790F-4CA4-A1BF-6723ED4BD223}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.MVC", "BHBitProject.Lib.MVC\BBP.MVC.csproj", "{24D09D0B-790F-4CA4-A1BF-6723ED4BD223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.Security", "BHBitProject.Lib.Security\BHBitProject.Lib.Security.csproj", "{52ECC219-6451-43C7-84DE-590693260F36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.Security", "BHBitProject.Lib.Security\BBP.Security.csproj", "{52ECC219-6451-43C7-84DE-590693260F36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestFramework", "ConsoleTestFramework\ConsoleTestFramework.csproj", "{EBABA8AB-266F-437B-B354-15335EC7AB01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BHBitProject.Lib.IO", "BHBitProject.Lib.IO\BHBitProject.Lib.IO.csproj", "{711B9B36-F766-441B-B2A9-236B66D88DDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.IO", "BHBitProject.Lib.IO\BBP.IO.csproj", "{711B9B36-F766-441B-B2A9-236B66D88DDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,8 +7,8 @@
     <ProjectGuid>{711B9B36-F766-441B-B2A9-236B66D88DDC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BHBitProject.Lib.IO</RootNamespace>
-    <AssemblyName>BHBitProject.Lib.IO</AssemblyName>
+    <RootNamespace>BBP.IO</RootNamespace>
+    <AssemblyName>BBP.IO</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

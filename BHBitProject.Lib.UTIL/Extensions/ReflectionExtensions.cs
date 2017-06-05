@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.Util.Extensions.ReflectionExtensions
+namespace BBP.Util.Extensions.ReflectionExtensions
 {
     public static class ReflectionExtensions
     {

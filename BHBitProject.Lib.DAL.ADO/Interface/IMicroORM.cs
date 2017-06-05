@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.DAL.Interface.ADO
+namespace BBP.DAL.Interface.ADO
 {
 
    

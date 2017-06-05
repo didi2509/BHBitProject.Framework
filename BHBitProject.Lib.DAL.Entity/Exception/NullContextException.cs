@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.DAL.Entity.Exception
+namespace BBP.DAL.Entity.Exception
 {
     public class NullContextException : System.Exception
     {

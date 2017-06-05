@@ -1,5 +1,5 @@
-﻿using BHBitProject.Lib.DAL.Entity.Exception;
-using BHBitProject.Lib.DAL.Entity.Interface;
+﻿using BBP.DAL.Entity.Exception;
+using BBP.DAL.Entity.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Data.Common;
 using System.Data.Entity;
 
-namespace BHBitProject.Lib.DAL.Entity
+namespace BBP.DAL.Entity
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class, IObjectWithKey
     {

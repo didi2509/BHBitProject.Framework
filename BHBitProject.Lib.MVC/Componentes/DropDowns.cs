@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace BHBitProject.Lib.MVC.Components
+namespace BBP.MVC.Components
 {
     public static class DropDown
     {

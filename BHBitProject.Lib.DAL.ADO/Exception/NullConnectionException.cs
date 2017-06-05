@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BHBitProject.Lib.DAL.ADO.Exception
+namespace BBP.DAL.ADO.Exception
 {
     public class NullConnectionException : System.Exception
     {
