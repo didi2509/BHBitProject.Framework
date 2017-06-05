@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestFramework", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.IO", "BHBitProject.Lib.IO\BBP.IO.csproj", "{711B9B36-F766-441B-B2A9-236B66D88DDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBP.Test.Selenium", "BBP.Test.Selenium\BBP.Test.Selenium.csproj", "{1EEA27AC-2D7D-4B60-A01A-5696072DAB01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{711B9B36-F766-441B-B2A9-236B66D88DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{711B9B36-F766-441B-B2A9-236B66D88DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{711B9B36-F766-441B-B2A9-236B66D88DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEA27AC-2D7D-4B60-A01A-5696072DAB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEA27AC-2D7D-4B60-A01A-5696072DAB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEA27AC-2D7D-4B60-A01A-5696072DAB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEA27AC-2D7D-4B60-A01A-5696072DAB01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
