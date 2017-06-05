@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>BBP.Util</id>
+    <id>BBP.Test.Selenium</id>
     <version>1.0.0.0</version>
     <authors>Diogo de Freitas Nunes</authors>
     <owners>Diogo de Freitas Nunes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>General Utils</description>
-    <releaseNotes>Namespace Restructuraction</releaseNotes>
+    <releaseNotes>Security</releaseNotes>
     <copyright>Copyright 2017</copyright>
   </metadata>
   <files>
-    <file src="..\BHBitProject.Framework\BHBitProject.Lib.Util\bin\Release\BBP.Util.dll" target="lib" />
+    <file src="..\BHBitProject.Framework\BBP.Test.Selenium\bin\Release\BBP.Test.Selenium.dll" target="lib" />
   </files>
 </package>

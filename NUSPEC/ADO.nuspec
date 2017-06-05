@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>BHBitProject.Lib.DAL.ADO</id>
-    <version>1.0.0.1</version>
+    <id>BBP.DAL.ADO</id>
+    <version>1.0.0.0</version>
     <authors>Diogo de Freitas Nunes</authors>
     <owners>Diogo de Freitas Nunes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -14,6 +14,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BHBitProject.Lib.DAL.ADO.dll" target="lib" />
+    <file src="..\BHBitProject.Framework\BHBitProject.Lib.DAL.ADO\bin\Release\BBP.DAL.ADO.dll" target="lib" />
   </files>
 </package>

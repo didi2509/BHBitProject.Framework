@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>BHBitProject.Lib.Security</id>
+    <id>BBP.Security</id>
     <version>1.0.0.0</version>
     <authors>Diogo de Freitas Nunes</authors>
     <owners>Diogo de Freitas Nunes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>General Security</description>
-    <releaseNotes>Security</releaseNotes>
+    <releaseNotes>Namespace Restructuraction</releaseNotes>
     <copyright>Copyright 2017</copyright>
   </metadata>
   <files>
-    <file src="C:\Users\Diogo\Source\Repos\BHBitProject.Framework\BHBitProject.Lib.Security\bin\Release\BHBitProject.Lib.Security.dll" target="lib" />
+    <file src="..\BHBitProject.Framework\BHBitProject.Lib.Security\bin\Release\BBP.Security.dll" target="lib" />
   </files>
 </package>
