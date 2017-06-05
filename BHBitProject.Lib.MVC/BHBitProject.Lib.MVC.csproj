@@ -50,8 +50,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Componentes\GridHelper\GridHelper.cs" />
+    <Compile Include="Componentes\GridHelper\GridHelper_3_0_17\GridHelper.cs" />
     <Compile Include="Componentes\DropDowns.cs" />
+    <Compile Include="Extensions\HTMLExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -67,6 +68,7 @@
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\gridHelperExpandir.png" />
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\gridHelperLoader.gif" />
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\gridHelperRecolher.png" />
+    <Content Include="Componentes\GridHelper\GridHelper_3_0_17\GridUtils.js" />
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\sort_asc.png" />
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\sort_both.png" />
     <Content Include="Componentes\GridHelper\GridHelper_3_0_17\sort_desc.png" />
@@ -77,7 +79,6 @@
     <Content Include="BBPScripts\BBP\Extensions\Extensao.js" />
     <Content Include="BBPScripts\BBP\JSON.js" />
     <Content Include="BBPScripts\BBP\Message.js" />
-    <Content Include="BBPScripts\BBP\Ready.js" />
     <Content Include="BBPScripts\BBP\Utils.js" />
     <Content Include="BBPScripts\BBP\Validate.js" />
   </ItemGroup>

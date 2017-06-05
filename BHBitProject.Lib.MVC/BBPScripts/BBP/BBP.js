@@ -1,9 +1,7 @@
 ﻿var BBP =
     {
         $: jQuery
-        , BBPPath: ""
-        , init: function (BBPPath) {
-            this.BBPPath = BBPPath;
+        , init: function () {
             BBP.Ready.Execute();
         }
         , Ready: {
@@ -22,28 +20,10 @@
             }
 
         }
-        , LoadLibrary: function (name) {
-            this.LoadScript(name);
-            if (BBP[name].init)
-                BBP[name].init();
-        }
-
-        , LoadScript: function (strScriptPath) {
-
+        , LoadScript: function (scriptPath) {
             var script = document.createElement('script');
             script.setAttribute('type', 'text/javascript');
-            script.setAttribute('src', this.BBPPath + strScriptPath + '.js');
+            script.setAttribute('src', scriptPath);
             document.body.appendChild(script);
-
-        }
-
-        , Utils: LoadLibrary("Utils")
-        , Validate: LoadLibrary("Validate")
-        , Ajax: LoadLibrary("Ajax")
-        , DateTime: LoadLibrary("DateTime")
-        , JSON: LoadLibrary("JSON")
-        , Message: LoadLibrary("Message")
-        , Componentes: {
-            DropDowns: LoadLibrary("Components/DropDowns")
         }
     };
