@@ -11,7 +11,7 @@ namespace BBP.BLL.Entity.Base
     {
         #region [Properties]
 
-        TContext Context { get; set; }
+        protected TContext Context { get; set; }
 
         #endregion
 
