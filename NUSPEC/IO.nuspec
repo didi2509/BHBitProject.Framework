@@ -11,6 +11,6 @@
     <copyright>Copyright 2017</copyright>
   </metadata>
   <files>
-    <file src="..\BHBitProject.Framework\BHBitProject.Lib.IO\bin\Release\BBP.IO.dll" target="lib" />
+    <file src="..\BHBitProject.Lib.IO\bin\Release\BBP.IO.dll" target="lib" />
 </files>  
 </package>

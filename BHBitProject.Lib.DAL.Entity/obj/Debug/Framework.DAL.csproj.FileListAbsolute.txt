@@ -1,5 +1,0 @@
-H:\DEV\Framework\Framework\Framework.DAL\bin\Debug\Framework.DAL.dll
-H:\DEV\Framework\Framework\Framework.DAL\bin\Debug\Framework.DAL.pdb
-H:\DEV\Framework\Framework\Framework.DAL\obj\Debug\Framework.DAL.csprojResolveAssemblyReference.cache
-H:\DEV\Framework\Framework\Framework.DAL\obj\Debug\Framework.DAL.dll
-H:\DEV\Framework\Framework\Framework.DAL\obj\Debug\Framework.DAL.pdb

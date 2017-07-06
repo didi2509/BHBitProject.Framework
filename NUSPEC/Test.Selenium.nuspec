@@ -6,11 +6,16 @@
     <authors>Diogo de Freitas Nunes</authors>
     <owners>Diogo de Freitas Nunes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>General Utils</description>
+    <description>Test package using Selenium</description>
     <releaseNotes>Security</releaseNotes>
     <copyright>Copyright 2017</copyright>
+  <dependencies>
+   <dependency id="NFaker" version="1.3.3" />
+   <dependency id="Selenium.Support" version="3.4.0" />
+   <dependency id="Selenium.WebDriver" version="3.4.0" />
+  </dependencies>
   </metadata>
   <files>
-    <file src="..\BHBitProject.Framework\BBP.Test.Selenium\bin\Release\BBP.Test.Selenium.dll" target="lib" />
+    <file src="..\BBP.Test.Selenium\bin\Release\BBP.Test.Selenium.dll" target="lib" />
   </files>
 </package>

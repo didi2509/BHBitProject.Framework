@@ -11,6 +11,6 @@
     <copyright>Copyright 2017</copyright>
   </metadata>
   <files>
-    <file src="..\BHBitProject.Framework\BHBitProject.Lib.Security\bin\Release\BBP.Security.dll" target="lib" />
+    <file src="..\BHBitProject.Lib.Security\bin\Release\BBP.Security.dll" target="lib" />
   </files>
 </package>
