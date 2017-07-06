@@ -18,7 +18,7 @@ namespace BBP.BLL.Entity.Base
         #region [Constructors]
 
         public UnitOfWork(TContext context) { this.Context = context; }
-
+         
         #endregion
     }
 }

@@ -8,23 +8,14 @@ using System.Web.Mvc;
 namespace BBP.MVC.Core
 {
   
-    public class BaseController : Controller, IDisposable
+    public class BBPBaseTransactionController : Controller, IDisposable
     {
-
-        #region [Properties]
-#if DEBUG
-        private const string conectionStringName = "strConexaoDesenvolvimento";
-#else
-        private const string conectionStringName = "strConexaoProducao";
-#endif
-
-        private TransactionScope transaction { get; set; }
-
-        #endregion
+        protected TransactionScope transaction { get; set; }
+       
 
         protected bool IsContextInTransaction = true;
 
-        protected override void OnActionExecuting(ActionExecutingContext filterContext)
+        protected new virtual void OnActionExecuting(ActionExecutingContext filterContext)
         {
             if (this.IsContextInTransaction)
                 transaction = new TransactionScope();
@@ -32,18 +23,18 @@ namespace BBP.MVC.Core
             base.OnActionExecuting(filterContext);
         }
 
-        protected override void OnResultExecuted(ResultExecutedContext filterContext)
+        protected new virtual void OnResultExecuted(ResultExecutedContext filterContext)
         {
             base.OnResultExecuted(filterContext);
             this.Dispose(true);
         }
 
-        public new void Dispose()
+        public virtual new void Dispose()
         {
             base.Dispose();
         }
 
-        protected new virtual void Dispose(bool disposing)
+        protected virtual new void Dispose(bool disposing)
         {
             if (disposing)
             {

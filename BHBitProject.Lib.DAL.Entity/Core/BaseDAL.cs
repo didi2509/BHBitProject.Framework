@@ -24,7 +24,7 @@ namespace BBP.DAL.Entity
         /// <summary>
         /// Contexto
         /// </summary>
-        private DbContext _context { get; set; }
+        protected DbContext Context { get; set; }
 
         /// <summary>
         /// Repositório genérico
@@ -41,7 +41,7 @@ namespace BBP.DAL.Entity
         /// <param name="context"></param>
         public BaseDAL(DbContext context)
         {
-            this._context = context;
+            this.Context = context;
             this.repository = new GenericRepository<EntityType>(context);
         }
 
