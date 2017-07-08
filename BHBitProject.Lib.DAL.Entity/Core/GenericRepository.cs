@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Common;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 
 namespace BBP.DAL.Entity
 {
@@ -116,7 +117,10 @@ namespace BBP.DAL.Entity
             return this.Context.Set<T>().AsQueryable();
         }
 
-
+        public DbQuery<T> Include(string include)
+        {
+            return this.Context.Set<T>().Include(include);
+        }
 
         /// <summary>
         /// Efetua uma busca baseada em uma expressao

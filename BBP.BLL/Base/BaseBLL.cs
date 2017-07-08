@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 
 namespace BBP.BLL.Entity.Base
 {
-    public class BaseBLL<EntityType> where EntityType : class, IObjectWithKey
+    public class BaseBLL<BaseDAL, EntityType> 
+        where BaseDAL : BaseDAL<EntityType> 
+        where EntityType:class, IObjectWithKey
     {
         public BaseBLL(DbContext _context)
         {

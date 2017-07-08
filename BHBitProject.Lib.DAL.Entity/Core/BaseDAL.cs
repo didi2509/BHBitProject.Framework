@@ -10,6 +10,7 @@ using System.Linq.Expressions;
 using System.Data.Common;
 using System.Data.Entity;
 using System.Data.Entity.Core.Objects.DataClasses;
+using System.Data.Entity.Infrastructure;
 
 namespace BBP.DAL.Entity
 {
@@ -17,7 +18,7 @@ namespace BBP.DAL.Entity
     /// Classe base para a criação de objetos de entidade especializados para o acesso a dados
     /// </summary>
     /// <typeparam name="EntityType"></typeparam>
-    public class BaseDAL<EntityType> : IGenericRepositoryBehavior<EntityType> where EntityType : class,IObjectWithKey
+    public class BaseDAL<EntityType> : IGenericRepositoryBehavior<EntityType> where EntityType : class, IObjectWithKey
     {
         #region [Propriedades]
 
@@ -54,6 +55,7 @@ namespace BBP.DAL.Entity
         {
             this.repository = (GenericRepository<EntityType>)repository;
             this.repository.Context = context;
+
         }
 
         #endregion
@@ -68,6 +70,8 @@ namespace BBP.DAL.Entity
         {
             return this.repository;
         }
+
+
 
 
         /// <summary>
@@ -103,6 +107,16 @@ namespace BBP.DAL.Entity
             return this.repository.FirstOrDefault(predicate);
         }
 
+
+        public DbQuery<EntityType> Include(string include)
+        {
+            return this.repository.Include(include);
+        }
+
+        //public DbQuery<TResult> Include<TResult>(string include)
+        //{
+        //    return this.repository.Include<TResult>(include);
+        //}
 
         /// <summary>
         /// Retorna todos os registros correspondentes a entidade
