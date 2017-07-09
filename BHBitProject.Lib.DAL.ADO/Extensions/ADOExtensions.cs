@@ -48,7 +48,7 @@ namespace BBP.DAL.ADO.Extensions
 
 
 
-       
+
         /// <summary>
         /// Executa a leitura de dados na base e retorna o tipo de sua escolha, se a conexão fornecida estiver fechada o próprio método irá gerenciar o estado da conexão
         /// </summary>
@@ -65,12 +65,16 @@ namespace BBP.DAL.ADO.Extensions
 
             bool isOpen = connection.State == System.Data.ConnectionState.Open || transaction != null;
 
+            IDataReader readerObject = null;
+
             try
             {
                 IDbCommand command = CreateCommand(connection, commandText, System.Data.CommandType.Text, transaction, parameters);
 
                 if (!isOpen) connection.Open();
-                return reader(command.ExecuteReader());
+                readerObject = command.ExecuteReader();
+
+                return reader(readerObject);
             }
             catch
             {
@@ -78,6 +82,9 @@ namespace BBP.DAL.ADO.Extensions
             }
             finally
             {
+                if (readerObject != null)
+                    readerObject.Dispose();
+
                 if (!isOpen)
                     connection.Dispose();
             }
@@ -175,7 +182,52 @@ namespace BBP.DAL.ADO.Extensions
             return Configuration.MicroORM.Query<T>(connection, commandText, param, transaction, buffered, commandTimeout, commandType);
         }
 
+        public static IDbDataParameter CreateParameter(this IDbConnection connection, string name, object value, DbType? dbTypeParameter = null)
+        {
+            IDbDataParameter parameter = connection.CreateCommand().CreateParameter();
+            parameter.ParameterName = name;
+            parameter.Value = value;
 
+            if (dbTypeParameter.HasValue)
+                parameter.DbType = dbTypeParameter.Value;
+
+            return parameter;
+        }
+
+        public class ADOParameter
+        {
+            public string Name { get; set; }
+            public object Value { get; set; }
+
+            public ADOParameter(string name, object value)
+            {
+                this.Name = name;
+                this.Value = value;
+            }
+        }
+
+        public static IDbDataParameter[] CreateParameters(this IDbConnection connection, ADOParameter[] parametros, DbType? dbTypeParameter = null)
+        {
+            if (parametros != null && parametros.Length > 0)
+            {
+                List<IDbDataParameter> parameters = new List<IDbDataParameter>();
+
+                parametros.ToList().ForEach(p => parameters.Add(connection.CreateParameter(p.Name, p.Value, dbTypeParameter)));
+
+                return parameters.ToArray();
+            }
+
+            return null;
+        }
+
+        public static IDbDataParameter CreateParameter(this IDbConnection connection, string name, object value)
+        {
+            IDbDataParameter parameter = connection.CreateCommand().CreateParameter();
+            parameter.ParameterName = name;
+            parameter.Value = value;
+
+            return parameter;
+        }
 
         /// <summary>
         /// Executa o comando QueryFirst<T> do framerok MicroORM fornecido, se a conexão não estiver aberta o próprio método irá efetuar a abertura

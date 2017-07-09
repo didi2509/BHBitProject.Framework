@@ -108,7 +108,7 @@ namespace BBP.DAL.Entity
         }
 
 
-        public DbQuery<EntityType> Include(string include)
+        public virtual DbQuery<EntityType> Include(string include)
         {
             return this.repository.Include(include);
         }

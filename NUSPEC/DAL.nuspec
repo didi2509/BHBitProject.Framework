@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BBP.DAL.Entity</id>
-    <version>1.0.0.2</version>
+    <version>1.0.0.3</version>
     <authors>Diogo de Freitas Nunes</authors>
     <owners>Diogo de Freitas Nunes</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
