@@ -47,6 +47,16 @@ namespace BBP.DAL.Entity
         }
 
         /// <summary>
+        /// Instancia um repositório genérico e seta o contexto do DAL
+        /// </summary>
+        /// <param name="context"></param>
+        public void SetContext(DbContext context)
+        {
+            this.Context = context;
+            this.repository = new GenericRepository<EntityType>(context);
+        }
+
+        /// <summary>
         /// Seta o repositório
         /// </summary>
         /// <param name="context">Contexto utilizado pelo repositório</param>

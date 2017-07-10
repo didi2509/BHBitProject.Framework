@@ -10,16 +10,19 @@ using System.Threading.Tasks;
 namespace BBP.BLL.Entity.Base
 {
     public class BaseBLL<BaseDALType, EntityType> 
-        where BaseDALType : BaseDAL<EntityType> 
+        where BaseDALType : BaseDAL<EntityType> , new()
         where EntityType:class, IObjectWithKey
     {
         public BaseBLL(DbContext _context)
         {
             this.Context = _context;
-            DAL = (BaseDALType)Activator.CreateInstance(type: typeof(BaseDALType), args: new { _context });
+            DAL = new BaseDALType();
+            DAL.SetContext(_context);
         }
 
         protected DbContext Context { get; set; }
         protected BaseDALType DAL { get; set; }
+
+
     }
 }
