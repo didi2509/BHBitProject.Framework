@@ -56,8 +56,6 @@ namespace BBP.DAL.Entity
             this.repository = new GenericRepository<EntityType>(context);
         }
 
-        public BaseDAL() { }
-
         /// <summary>
         /// Seta o repositório
         /// </summary>

@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using BBP.DAL.Interface.ADO;
+using Dapper;
 
 namespace BBP.DAL.ADO.Extensions
 {
@@ -91,6 +92,15 @@ namespace BBP.DAL.ADO.Extensions
 
         }
 
+        public static DynamicParameters CreateParameters(this DbConnection con, params ADOParameter[] parametros)
+        {
+            DynamicParameters args = new Dapper.DynamicParameters(new { });
+
+            if (parametros != null && parametros.Length > 0)
+                parametros.ToList().ForEach(p => args.Add(p.Name, p.Value));
+
+            return args;                    
+        }
 
         /// <summary>
         /// Executa a leitura da primeira linha da primeira coluna retornada através de uma consulta na base de dados, se a conexão fornecida estiver fechada o próprio método irá gerenciar o estado da conexão
