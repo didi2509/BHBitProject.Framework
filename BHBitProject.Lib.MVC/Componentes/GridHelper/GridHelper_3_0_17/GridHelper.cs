@@ -273,6 +273,8 @@ namespace System.Web.Helpers
             if (lista.Count() == 0)
                 return new MvcHtmlString(String.Format("<tbody id='gridHelperBody{0}'><tr><td>Não foram encontrados registros</td></tr></tbody>", this.IdTabela));
 
+            Type type = typeof(Tipo) is object ? lista.ToList()[0].GetType() : typeof(Tipo);
+
             //Variaveis utilizadas no laço
             int linha = 0;
             int quantidadePropriedades = 0;
@@ -282,7 +284,7 @@ namespace System.Web.Helpers
             int registroCorrente = this.RegistroInicialPaginacao;
 
             //Filtrando as propriedades
-            System.Reflection.PropertyInfo[] propriedades = String.IsNullOrEmpty(RemoveColumns) ? typeof(Tipo).GetProperties() : typeof(Tipo).GetProperties().Where(w => !RemoveColumns.Contains(w.Name.ToUpper())).ToArray();
+            System.Reflection.PropertyInfo[] propriedades = String.IsNullOrEmpty(RemoveColumns) ? type.GetProperties() : type.GetProperties().Where(w => !RemoveColumns.Contains(w.Name.ToUpper())).ToArray();
 
             lista.AsParallel().ToList().ForEach(curObject =>
             {
